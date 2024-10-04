@@ -1,0 +1,110 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            height: 40px;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .product-section {
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-item {
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 200px;
+            text-align: center;
+            position: relative;
+        }
+
+        .product-item img {
+            max-width: 50%;
+            height: 70px;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .product-item h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .product-item .price {
+            font-size: 16px;
+            color: #000;
+            margin: 10px 0;
+            text-align: left;
+        }
+
+        .product-item .discount {
+            font-size: 14px;
+            color: #888;
+            text-decoration: line-through;
+        }
+
+        .product-item .off {
+            color: #f60;
+            font-size: 12px;
+            border: 1px solid #f60;
+            display: inline-block;
+            padding: 2px 5px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            text-align: left;
+        }
+
+        .offer-banner {
+            height: 200px;
+            background-image: url("https://i03.appmifile.com/667_operator_in/16/09/2024/3dc7a525e383e22e78361ca189422c8d.jpg?thumb=1&w=1680&f=webp&q=85");
+            padding: 20px;
+            text-align: center;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .offer-banner button {
+            display: flex-end;
+
+            background-color: #000;
+            color: #fff;
+            margin: auto;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+
+        }
